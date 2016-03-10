@@ -13,6 +13,9 @@ import sk.styk.martin.bakalarka.execute.tasks.Task;
  */
 public class Main {
 
+    //java -jar ApkAnalyzer.jar  -analyze -in=d:/jar/in -out=d:/jar/out_json
+    //java -jar ApkAnalyzer.jar  -compare -in=d:/jar/out_json -out=d:/jar/out_compare
+    //java -jar ApkAnalyzer.jar  -statistics -in=d:/jar/out_json -out=d:/jar/out_statistics
     public static void main(String[] args) throws Exception {
 
         Arguments commandLineArgs = new ArgumentsFactory(args).parseArguments();
